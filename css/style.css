@@ -119,30 +119,6 @@ main {
     font-weight: 600;
 }
 
-/* IT-TAKES-TWO SECTION */
-.ms_it_takes_two-section {
-    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-/* it-takes-two logo */
-.ms_it_takes_two-content img {
-    width: 18rem;
-}
-.ms_it_takes_two-content h2 {
-    font-size: 38px;
-    padding: 1.5rem 0;
-}
-
-/* PS4-EXPLORE SECTION */
-.ms_ps4_explore-content .ms_reg-element {
-    font-size: 20px;
-    vertical-align: 10px;
-}
-
 /* PS5-CONSOLE SECTION */
 .ms_blue_btn {
     color: #fff;
@@ -180,6 +156,59 @@ main {
     font-size: 15px;
 }
 
+/* IT-TAKES-TWO SECTION */
+.ms_it_takes_two-section {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+/* it-takes-two logo */
+.ms_it_takes_two-content img {
+    width: 18rem;
+}
+.ms_it_takes_two-content h2 {
+    font-size: 38px;
+    padding: 1.5rem 0;
+}
+
+/* NEW-RELEASES SECTION */
+#ms_new_releases {
+    background-color: #1f1f1f;
+    padding: 2rem 0 2.7rem;
+}
+#ms_new_releases h3 {
+    font-size: 2rem;
+    padding-bottom: 0.7rem;
+}
+#ms_new_releases h4 {
+    font-size: 24px;
+}
+#ms_new_releases .ms_me-new-games > * {
+    margin-bottom: 2rem;
+}
+#ms_new_releases img {
+    border-radius: 30px;
+    padding: 15px 0 10px;
+}
+#ms_new_releases .ms_tony-trade {
+    font-size: 14px;
+    vertical-align: text-top;
+}
+#ms_new_releases .ms_skater-trade {
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+/* PS4-EXPLORE SECTION */
+.ms_ps4_explore-content .ms_reg-element {
+    font-size: 20px;
+    vertical-align: 10px;
+}
+
+
 /* MEDIA QUERIS */
 /* md breakpoint */
 @media screen and (min-width: 768px) {
@@ -187,11 +216,6 @@ main {
     /* returnal-logo */
     .ms_returnal-content img {
         width: 25rem;
-    }
-    /* IT-TAKES-TWO SECTION */
-    /* it-takes-two logo */
-    .ms_it_takes_two-content img {
-        width: 26rem;
     }
     /* PS5-ACCESSORIES SECTION */
     .ms_tablet-desktop_text {
@@ -204,6 +228,11 @@ main {
     }
     .ms_ps5_accessories .ms_ps5_img::after {
         margin-top: 3.2rem;
+    }
+    /* IT-TAKES-TWO SECTION */
+    /* it-takes-two logo */
+    .ms_it_takes_two-content img {
+        width: 26rem;
     }
 }
 /* lg breakpoint */
