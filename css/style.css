@@ -88,6 +88,24 @@ main {
 #ms_ps5-games .ms_blue-border {
     border: 1px solid #0072ce;
 }
+/* PLAY-HAS-NO-LIMITS SECTION */
+#ms_play_no_limits {
+    padding: 5rem 0 4rem;
+}
+.ms_no_limits-content div:first-child {
+    color: #0072ce;
+    font-size: 14px;
+    font-weight: 600;
+}
+.ms_no_limits-content h2 {
+    font-size: 40px;
+    padding-bottom: 1.3rem;
+}
+.ms_no_limits-content div:nth-child(3) {
+    font-size: 18px;
+    color: #797979;
+    font-weight: 600;
+}
 /* MEDIA QUERIS */
 /* md breakpoint */
 @media screen and (min-width: 768px) {
