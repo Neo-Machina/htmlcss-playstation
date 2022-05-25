@@ -85,8 +85,15 @@ main {
 #ms_ps5-games img {
     border-radius: 1rem;
 }
+.ms_padd-ps5games {
+    padding: 1px;
+}
 #ms_ps5-games .ms_blue-border {
-    border: 1px solid #0072ce;
+    border: 3px solid #0072ce;
+    border-radius: 1rem;
+}
+#ms_ps5-games .ms_me-ps5games {
+    margin-bottom: 22px;
 }
 /* PLAY-HAS-NO-LIMITS SECTION */
 #ms_play_no_limits {
