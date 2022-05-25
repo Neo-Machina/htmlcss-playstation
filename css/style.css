@@ -151,6 +151,21 @@ main {
     margin-top: 2rem;  
 }
 
+/* PS5-ACCESSORIES SECTION */
+.ms_ps5_accessories img {
+    opacity: 0.7;
+}
+.ms_ps5_accessories .ms_ps5_img {
+    opacity: unset;
+}
+.ms_ps5_accessories .ms_ps5_img::after {
+    content: "";
+    width: 30px;
+    height: 5px;
+    display: inline-block;
+    background-color: #2d64e6;
+}
+
 /* MEDIA QUERIS */
 /* md breakpoint */
 @media screen and (min-width: 768px) {
