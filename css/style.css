@@ -26,6 +26,9 @@ img {
     font-weight: 600;
 }
 
+#ms_accessories_section .col div:last-child, .ms_tablet-desktop {
+    display: none;
+}
 /* HEADER */
 header {
     font-family: Helvetica, arial, sans-serif;
@@ -96,7 +99,7 @@ main {
 
 /* PS5-GAMES SECTION */
 #ms_ps5-games {
-    padding: 2rem 0;
+    padding-top: 2rem;
 }
 #ms_ps5-games img {
     border-radius: 1rem;
@@ -146,9 +149,6 @@ main {
     height: 2.1px;
     display: inline-block;
     background-color: #0f7ad1;
-}
-.ms_tablet-desktop_text {
-    display: none;
 }
 .ms_ps5_accessories .ms_trade-element {
     vertical-align: text-top;
@@ -212,7 +212,7 @@ main {
 }
 /* PS4 SECTION */
 #ms_ps4-section {
-    padding: 0.5rem 0 4.5rem;
+    padding-bottom: 7.5rem;
 }
 .card {
     border: none;
@@ -220,20 +220,55 @@ main {
 .card-body {
     padding: 0;
 }
+/* PLAYSTATION-PLUS SECTION */
+#ms_ps-plus {
+    background-color: #bebcbb;
+}
+#ms_ps-plus .card {
+    background-color: #bebcbb;
+}
+#ms_ps-plus .row > * {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+/* logo ps-plus */
+.ms_ps-plus_logo {
+    width: 17rem;
+}
+.ms_ps-plus-text {
+    margin: 1.8rem 0;
+}
+/* grey-button */
+.ms_grey_btn {
+    color: #2e65e6;
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+}
+
 
 
 /* MEDIA QUERIS */
-/* md breakpoint */
+/* ms-breakpoint */
+@media screen and (min-width: 576px) {
+    /* PLAYSTATION-PLUS SECTION */
+    /* logo ps-plus */
+    .ms_ps-plus_logo {
+    width: 19rem;
+    }
+}
+/* md-breakpoint */
 @media screen and (min-width: 768px) {
+    /* COMMON */
+    #ms_accessories_section .col div:last-child, 
+    .ms_tablet-desktop {
+        display: block;
+    }
     /* RETURNAL SECTION */
     /* returnal-logo */
     .ms_returnal-content img {
         width: 25rem;
     }
     /* PS5-ACCESSORIES SECTION */
-    .ms_tablet-desktop_text {
-        display: block;
-    }
     .ms_ps5_accessories img {
         width: 4rem;
         padding-bottom: 0.7rem;
@@ -247,8 +282,21 @@ main {
     .ms_it_takes_two-content img {
         width: 26rem;
     }
+    /* PS4 SECTION */
+    #ms_ps4-section {
+        padding-bottom: 4.7rem;
+    }
+    /* PLAYSTATION-PLUS SECTION */
+    #ms_ps-plus .row > * {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    /* logo ps-plus */
+    .ms_ps-plus_logo {
+        width: 13rem;
+    }
 }
-/* lg breakpoint */
+/* lg-breakpoint */
 @media screen and (min-width: 992px) {
     /* RETURNAL SECTION */
     .ms_returnal-content {
@@ -273,6 +321,11 @@ main {
     /* it-takes-two logo */
     .ms_it_takes_two-content img {
         width: 15rem;
+    }
+    /* PLAYSTATION-PLUS SECTION */
+    /* logo ps-plus */
+    .ms_ps-plus_logo {
+        width: 20rem;
     }
 }
 
