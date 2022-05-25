@@ -2,8 +2,13 @@
 body {
     font-family: Arial, sans-serif;
 }
+
 img {
     max-width: 100%;
+}
+
+.ms_color_white {
+    color: white;
 }
 /* HEADER */
 header {
@@ -43,3 +48,53 @@ header {
     border-bottom: 0;
     border-left: 0.3em solid transparent;
 } */
+
+/* MAIN */
+main {
+    padding-top: 100px;
+}
+/* Returnal section */
+.ms_returnal-section {
+    background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20rem;
+    padding-bottom: 3rem;
+}
+/* returnal-logo */
+.ms_returnal-content img {
+    width: 16rem;
+}
+.ms_returnal-content h2 {
+    font-size: 38px;
+    padding: 1.5rem 0;
+}
+/* orange-button */
+.ms_orange_btn {
+    color: white;
+    background-color: #cd3d0f;
+    border-color: #cd3d0f;
+    margin-top: 1rem;
+}
+/* MEDIA QUERIS */
+/* md breakpoint */
+@media screen and (min-width: 768px) {
+    /* Returnal section */
+    /* returnal-logo */
+    .ms_returnal-content img {
+        width: 25rem;
+    }
+}
+/* lg breakpoint */
+@media screen and (min-width: 992px) {
+    /* Returnal-section */
+    .ms_returnal-content {
+        max-width: 400px;
+    }
+    /* returnal-logo */
+    .ms_returnal-content img {
+        width: 13rem;
+    }
+}
+
