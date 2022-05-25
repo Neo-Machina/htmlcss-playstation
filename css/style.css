@@ -143,6 +143,14 @@ main {
     vertical-align: 10px;
 }
 
+/* PS5-CONSOLE SECTION */
+.ms_blue_btn {
+    color: #fff;
+    background-color: #2d64e6;
+    border-color: #2d64e6;
+    margin-top: 2rem;  
+}
+
 /* MEDIA QUERIS */
 /* md breakpoint */
 @media screen and (min-width: 768px) {
