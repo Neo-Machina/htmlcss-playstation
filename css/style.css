@@ -120,10 +120,13 @@ main {
 }
 
 /* PS5-CONSOLE SECTION */
+/* blue-button */
 .ms_blue_btn {
     color: #fff;
     background-color: #2d64e6;
     border-color: #2d64e6;
+}
+.ms_mt-ps5-btn {
     margin-top: 2rem;  
 }
 
@@ -206,6 +209,16 @@ main {
 .ms_ps4_explore-content .ms_reg-element {
     font-size: 20px;
     vertical-align: 10px;
+}
+/* PS4 SECTION */
+#ms_ps4-section {
+    padding: 0.5rem 0 4.5rem;
+}
+.card {
+    border: none;
+}
+.card-body {
+    padding: 0;
 }
 
 
