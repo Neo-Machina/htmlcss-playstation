@@ -7,28 +7,6 @@ img {
     max-width: 100%;
 }
 
-.ms_color_white {
-    color: white;
-}
-
-.ms_section_padd {
-    padding: 5rem 0 4rem;
-}
-
-.ms_h2-title {
-    font-size: 40px;
-    padding-bottom: 1.3rem;
-}
-
-.ms_grey_text {
-    font-size: 18px;
-    color: #797979;
-    font-weight: 600;
-}
-
-#ms_accessories_section .col div:last-child, .ms_tablet-desktop {
-    display: none;
-}
 /* HEADER */
 header {
     font-family: Helvetica, arial, sans-serif;
@@ -72,6 +50,30 @@ header {
 main {
     padding-top: 100px;
 }
+
+.ms_color_white {
+    color: white;
+}
+
+.ms_section_padd {
+    padding: 4.8rem 0 4rem;
+}
+
+.ms_h2-title {
+    font-size: 40px;
+    padding-bottom: 1.3rem;
+}
+
+.ms_grey_text {
+    font-size: 18px;
+    color: #797979;
+    font-weight: 600;
+}
+
+#ms_accessories_section .col div:last-child, .ms_tablet-desktop {
+    display: none;
+}
+
 /* RETURNAL SECTION */
 .ms_returnal-section {
     background-image: url("../img/jumbo-bg.png");
@@ -231,11 +233,12 @@ main {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-/* logo ps-plus */
-.ms_ps-plus_logo {
+/* logo ps-plus & logo ps-now */
+.ms_ps-plus_logo, .ms_ps-now_logo {
     width: 17rem;
 }
-.ms_ps-plus-text {
+/* ps-plus & logo ps-now text */
+.ms_ps-plus-text, .ms_ps-now-text {
     margin: 1.8rem 0;
 }
 /* grey-button */
@@ -245,14 +248,34 @@ main {
     border-color: #d9dadc;
 }
 
+/* PLAYSTATION-NOW SECTION */
+#ms_ps-now {
+    background-color: #161c3b;
+}
+#ms_ps-now .card {
+    background-color: #161c3b;
+}
+#ms_ps-now .row > * {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.ms_ps-now-text {
+    color: white;
+}
+/* white.button */
+.ms_white_btn {
+    color: black;
+    background-color: #f5f5f5;
+    border-color: #f5f5f5;
+}
 
 
 /* MEDIA QUERIS */
 /* ms-breakpoint */
 @media screen and (min-width: 576px) {
-    /* PLAYSTATION-PLUS SECTION */
-    /* logo ps-plus */
-    .ms_ps-plus_logo {
+    /* PLAYSTATION-PLUS & PLAYSTATION-NOW SECTION */
+    /* logo ps-plus & logo ps-now */
+    .ms_ps-plus_logo, .ms_ps-now_logo {
     width: 19rem;
     }
 }
@@ -286,13 +309,14 @@ main {
     #ms_ps4-section {
         padding-bottom: 4.7rem;
     }
-    /* PLAYSTATION-PLUS SECTION */
-    #ms_ps-plus .row > * {
+    /* PLAYSTATION-PLUS & PLAYSTATION-NOW SECTION */
+    #ms_ps-plus .row > *, 
+    #ms_ps-now .row > * {
         padding-top: 0;
         padding-bottom: 0;
     }
-    /* logo ps-plus */
-    .ms_ps-plus_logo {
+    /* logo ps-plus & logo ps-now */
+    .ms_ps-plus_logo, .ms_ps-now_logo {
         width: 13rem;
     }
 }
@@ -322,9 +346,9 @@ main {
     .ms_it_takes_two-content img {
         width: 15rem;
     }
-    /* PLAYSTATION-PLUS SECTION */
-    /* logo ps-plus */
-    .ms_ps-plus_logo {
+    /* PLAYSTATION-PLUS & PLAYSTATION-NOW SECTION */
+    /* logo ps-plus & logo ps-now */
+    .ms_ps-plus_logo, .ms_ps-now_logo {
         width: 20rem;
     }
 }
