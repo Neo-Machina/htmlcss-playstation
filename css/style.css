@@ -55,7 +55,7 @@ main {
 }
 /* Returnal section */
 .ms_returnal-section {
-    background-image: url("../img/returnal-listing-thumb-01-ps5.jpg");
+    background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -77,6 +77,17 @@ main {
     border-color: #cd3d0f;
     margin-top: 1rem;
 }
+
+/* PS5-GAMES SECTION */
+#ms_ps5-games {
+    padding: 2rem 0;
+}
+#ms_ps5-games img {
+    border-radius: 1rem;
+}
+#ms_ps5-games .ms_blue-border {
+    border: 1px solid #0072ce;
+}
 /* MEDIA QUERIS */
 /* md breakpoint */
 @media screen and (min-width: 768px) {
@@ -90,7 +101,7 @@ main {
 @media screen and (min-width: 992px) {
     /* Returnal-section */
     .ms_returnal-content {
-        max-width: 400px;
+        max-width: 380px;
     }
     /* returnal-logo */
     .ms_returnal-content img {
