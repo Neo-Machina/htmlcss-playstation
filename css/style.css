@@ -248,6 +248,11 @@ main {
     border-color: #d9dadc;
 }
 
+/* DISCOUNT-IMAGES SECTION */
+#ms_discount-images {
+    padding: 0.5rem 0 5.5rem;
+}
+
 /* PLAYSTATION-NOW SECTION */
 #ms_ps-now {
     background-color: #161c3b;
