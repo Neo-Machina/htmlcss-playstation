@@ -10,6 +10,17 @@ img {
 .ms_color_white {
     color: white;
 }
+.ms_h2-title {
+    font-size: 40px;
+    padding-bottom: 1.3rem;
+}
+
+.ms_grey_text {
+    font-size: 18px;
+    color: #797979;
+    font-weight: 600;
+}
+
 /* HEADER */
 header {
     font-family: Helvetica, arial, sans-serif;
@@ -95,8 +106,9 @@ main {
 #ms_ps5-games .ms_me-ps5games {
     margin-bottom: 22px;
 }
+
 /* PLAY-HAS-NO-LIMITS SECTION */
-#ms_play_no_limits {
+.ms_section_padd {
     padding: 5rem 0 4rem;
 }
 .ms_no_limits-content div:first-child {
@@ -104,15 +116,7 @@ main {
     font-size: 14px;
     font-weight: 600;
 }
-.ms_no_limits-content h2 {
-    font-size: 40px;
-    padding-bottom: 1.3rem;
-}
-.ms_no_limits-content div:nth-child(3) {
-    font-size: 18px;
-    color: #797979;
-    font-weight: 600;
-}
+
 /* IT-TAKES-TWO SECTION */
 .ms_it_takes_two-section {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -129,6 +133,12 @@ main {
 .ms_it_takes_two-content h2 {
     font-size: 38px;
     padding: 1.5rem 0;
+}
+
+/* PS4-EXPLORE SECTION */
+.ms_reg-element {
+    font-size: 20px;
+    vertical-align: 10px;
 }
 
 /* MEDIA QUERIS */
