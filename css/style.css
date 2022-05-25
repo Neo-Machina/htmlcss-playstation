@@ -10,6 +10,11 @@ img {
 .ms_color_white {
     color: white;
 }
+
+.ms_section_padd {
+    padding: 5rem 0 4rem;
+}
+
 .ms_h2-title {
     font-size: 40px;
     padding-bottom: 1.3rem;
@@ -108,9 +113,6 @@ main {
 }
 
 /* PLAY-HAS-NO-LIMITS SECTION */
-.ms_section_padd {
-    padding: 5rem 0 4rem;
-}
 .ms_no_limits-content div:first-child {
     color: #0072ce;
     font-size: 14px;
@@ -136,7 +138,7 @@ main {
 }
 
 /* PS4-EXPLORE SECTION */
-.ms_reg-element {
+.ms_ps4_explore-content .ms_reg-element {
     font-size: 20px;
     vertical-align: 10px;
 }
