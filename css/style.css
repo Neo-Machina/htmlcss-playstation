@@ -53,18 +53,18 @@ header {
 main {
     padding-top: 100px;
 }
-/* Returnal section */
+/* RETURNAL SECTION */
 .ms_returnal-section {
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 20rem;
-    padding-bottom: 3rem;
+    padding-top: 15.8rem;
+    padding-bottom: 3.5rem;
 }
 /* returnal-logo */
 .ms_returnal-content img {
-    width: 16rem;
+    width: 18rem;
 }
 .ms_returnal-content h2 {
     font-size: 38px;
@@ -113,24 +113,55 @@ main {
     color: #797979;
     font-weight: 600;
 }
+/* IT-TAKES-TWO SECTION */
+.ms_it_takes_two-section {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+/* it-takes-two logo */
+.ms_it_takes_two-content img {
+    width: 18rem;
+}
+.ms_it_takes_two-content h2 {
+    font-size: 38px;
+    padding: 1.5rem 0;
+}
+
 /* MEDIA QUERIS */
 /* md breakpoint */
 @media screen and (min-width: 768px) {
-    /* Returnal section */
+    /* RETURNAL SECTION */
     /* returnal-logo */
     .ms_returnal-content img {
         width: 25rem;
     }
+    /* IT-TAKES-TWO SECTION */
+    /* it-takes-two logo */
+    .ms_it_takes_two-content img {
+        width: 26rem;
+    }
 }
 /* lg breakpoint */
 @media screen and (min-width: 992px) {
-    /* Returnal-section */
+    /* RETURNAL SECTION */
     .ms_returnal-content {
         max-width: 380px;
     }
     /* returnal-logo */
     .ms_returnal-content img {
         width: 13rem;
+    }
+    /* IT-TAKES-TWO SECTION */
+    .ms_it_takes_two-content {
+        max-width: 360px;
+    }
+    /* it-takes-two logo */
+    .ms_it_takes_two-content img {
+        width: 15rem;
     }
 }
 
