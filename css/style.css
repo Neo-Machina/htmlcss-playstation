@@ -27,17 +27,17 @@ header {
     left: 0;
     z-index: 1000;
 }
-/* Header-top */
+/* Header-Top */
 .ms_header_top {
     height: 35px;
     background-color: black;
     padding-right: 10px;
 }
-/* sony logo */
+/* sony-logo */
 .ms_header_top img {
     width: 4.5rem;
 }
-/* Header-bottom */
+/* Header-Bottom */
 /* navigation-area */
 .bg-light {
     background-color: white!important;
@@ -85,6 +85,14 @@ main {
     display: none;
 }
 
+/* orange-button */
+.ms_orange_btn {
+    color: white;
+    background-color: #cd3d0f;
+    border-color: #cd3d0f;
+    margin-top: 1rem;
+}
+
 /* RETURNAL SECTION */
 .ms_returnal-section {
     background-image: url("../img/jumbo-bg.png");
@@ -101,13 +109,6 @@ main {
 .ms_returnal-content h2 {
     font-size: 38px;
     padding: 1.5rem 0;
-}
-/* orange-button */
-.ms_orange_btn {
-    color: white;
-    background-color: #cd3d0f;
-    border-color: #cd3d0f;
-    margin-top: 1rem;
 }
 
 /* PS5-GAMES SECTION */
@@ -223,6 +224,7 @@ main {
     font-size: 20px;
     vertical-align: 10px;
 }
+
 /* PS4 SECTION */
 #ms_ps4-section {
     padding-bottom: 7.5rem;
@@ -233,6 +235,7 @@ main {
 .card-body {
     padding: 0;
 }
+
 /* PLAYSTATION-PLUS SECTION */
 #ms_ps-plus {
     background-color: #bebcbb;
@@ -240,7 +243,8 @@ main {
 #ms_ps-plus .card {
     background-color: #bebcbb;
 }
-#ms_ps-plus .row > * {
+#ms_ps-plus .row > *, 
+#ms_ps-now .row > * {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -270,10 +274,6 @@ main {
 }
 #ms_ps-now .card {
     background-color: #161c3b;
-}
-#ms_ps-now .row > * {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
 }
 .ms_ps-now-text {
     color: white;
@@ -341,11 +341,13 @@ footer ul li {
     .ms_tablet-desktop {
         display: block;
     }
+
     /* RETURNAL SECTION */
     /* returnal-logo */
     .ms_returnal-content img {
         width: 25rem;
     }
+
     /* PS5-ACCESSORIES SECTION */
     .ms_ps5_accessories img {
         width: 4rem;
@@ -355,15 +357,18 @@ footer ul li {
     .ms_ps5_accessories .ms_ps5_img::after {
         margin-top: 3.2rem;
     }
+
     /* IT-TAKES-TWO SECTION */
     /* it-takes-two logo */
     .ms_it_takes_two-content img {
         width: 26rem;
     }
+
     /* PS4 SECTION */
     #ms_ps4-section {
         padding-bottom: 4.7rem;
     }
+
     /* PLAYSTATION-PLUS & PLAYSTATION-NOW SECTION */
     #ms_ps-plus .row > *, 
     #ms_ps-now .row > * {
@@ -374,6 +379,7 @@ footer ul li {
     .ms_ps-plus_logo, .ms_ps-now_logo {
         width: 13rem;
     }
+
     /* SOCIAL-MEDIA SECTION */ 
     #ms_social_media img {
         width: 122px;
@@ -390,6 +396,7 @@ footer ul li {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 1rem;
     }
+
     /* RETURNAL SECTION */
     .ms_returnal-content {
         max-width: 380px;
@@ -398,6 +405,7 @@ footer ul li {
     .ms_returnal-content img {
         width: 13rem;
     }
+
     /* PS5-ACCESSORIES SECTION */
     .ms_ps5_accessories img {
         width: 6rem;
@@ -406,6 +414,7 @@ footer ul li {
     .ms_ps5_accessories .ms_ps5_img::after {
         margin-top: 1.7rem;
     }
+
     /* IT-TAKES-TWO SECTION */
     .ms_it_takes_two-content {
         max-width: 360px;
@@ -414,11 +423,13 @@ footer ul li {
     .ms_it_takes_two-content img {
         width: 15rem;
     }
+
     /* PLAYSTATION-PLUS & PLAYSTATION-NOW SECTION */
     /* logo ps-plus & logo ps-now */
     .ms_ps-plus_logo, .ms_ps-now_logo {
         width: 20rem;
     }
+    
     /* FOOTER */
     /* sie-logo */
     footer .ms_sie-logo {
